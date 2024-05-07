@@ -1,0 +1,85 @@
+{
+    "name": "@yookue/babel-plugin-remove-comment",
+    "version": "0.1.0",
+    "title": "BabelPluginRemoveComment",
+    "description": "Removes script comments during babel compilation",
+    "homepage": "https://yookue.github.io/babel-plugin-remove-comment",
+    "organization": "Yookue Ltd",
+    "private": false,
+    "license": "MIT",
+    "keywords": [
+        "babel",
+        "babel-plugin",
+        "babel-plugin-remove-comment"
+    ],
+    "files": [
+        "dist"
+    ],
+    "main": "dist/cjs/index.js",
+    "types": "dist/cjs/index.d.ts",
+    "sideEffects": false,
+    "scripts": {
+        "build": "del-cli ./dist && tsc --outDir ./dist/cjs",
+        "docs:build": "typedoc --out ./docs-dist",
+        "docs:publish": "gh-pages -d ./docs-dist",
+        "lint": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
+        "test": "jest",
+        "test:coverage": "del-cli ./coverage && jest --coverage --coverageDirectory ./coverage"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5",
+        "@types/babel__core": "^7.20.5",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^16.18.96",
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.62.0",
+        "@yookue/typedoc-plugin-raw-content": "^0.1.0",
+        "del-cli": "^5.1.0",
+        "eslint": "^7.32.0",
+        "gh-pages": "^6.1.1",
+        "prettier": "^2.8.8",
+        "ts-jest": "^29.1.2",
+        "typedoc": "^0.25.13",
+        "typescript": "^4.9.5"
+    },
+    "peerDependencies": {
+        "@types/node": ">=16.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yookue/babel-plugin-remove-comment.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yookue/babel-plugin-remove-comment/issues"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "collective": {
+        "url": "https://opencollective.com/yookue-awesome"
+    },
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/yookue-awesome"
+        },
+        {
+            "type": "individual",
+            "url": "https://yookue.com/public/donate"
+        }
+    ],
+    "author": {
+        "name": "Yookue Ltd",
+        "email": "yookue@outlook.com",
+        "url": "https://yookue.com"
+    },
+    "contributors": [
+        {
+            "name": "Davis Hsing",
+            "email": "davidhsing@163.com",
+            "url": "https://github.com/davidhsing"
+        }
+    ]
+}

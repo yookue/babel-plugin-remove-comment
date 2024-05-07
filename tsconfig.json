@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "lib": ["dom"],
+        "removeComments": true,
+        "skipLibCheck": true,
+        "strict": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "coverage",
+        "dist",
+        "docs-dist"
+    ]
+}

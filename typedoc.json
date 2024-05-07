@@ -1,0 +1,30 @@
+{
+    "name": "BabelPluginRemoveComment",
+    "entryPoints": [
+        "src/index.ts"
+    ],
+    "disableSources": true,
+    "excludeExternals": true,
+    "excludeInternal": true,
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "excludeNotDocumented": true,
+    "excludeNotDocumentedKinds": [
+        "ConstructorSignature"
+    ],
+    "hideGenerator": true,
+    "includeVersion": false,
+    "navigationLinks": {
+        "GitHub": "https://github.com/yookue/babel-plugin-remove-comment",
+        "Yookue": "https://yookue.com"
+    },
+    "plugin": [
+        "@yookue/typedoc-plugin-raw-content"
+    ],
+    "rawHeadEnds": [
+        "<meta name='keywords' content='typedoc, yookue, babel-plugin-remove-comment'/>"
+    ],
+    "rawFooterEnds": [
+        "<div style='text-align: center'>Copyright &copy; 2024 Yookue Ltd. All rights reserved</div>"
+    ]
+}
