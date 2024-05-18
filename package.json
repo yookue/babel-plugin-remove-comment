@@ -1,6 +1,6 @@
 {
     "name": "@yookue/babel-plugin-remove-comment",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "title": "BabelPluginRemoveComment",
     "description": "Removes script comments during babel compilation",
     "homepage": "https://yookue.github.io/babel-plugin-remove-comment",
