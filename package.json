@@ -1,6 +1,6 @@
 {
     "name": "@yookue/babel-plugin-remove-comment",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "title": "BabelPluginRemoveComment",
     "description": "Removes script comments during babel compilation",
     "homepage": "https://yookue.github.io/babel-plugin-remove-comment",
@@ -27,19 +27,22 @@
         "test:coverage": "del-cli ./coverage && jest --coverage --coverageDirectory ./coverage"
     },
     "devDependencies": {
-        "@babel/preset-env": "^7.24.5",
+        "@babel/preset-env": "^7.26.0",
+        "@eslint/eslintrc": "^3.1.0",
+        "@eslint/js": "^9.14.0",
         "@types/babel__core": "^7.20.5",
-        "@types/jest": "^29.5.12",
-        "@typescript-eslint/eslint-plugin": "^6.21.0",
-        "@yookue/typedoc-plugin-raw-content": "^0.1.2",
-        "del-cli": "^5.1.0",
-        "gh-pages": "^6.1.1",
-        "ts-jest": "^29.1.2",
-        "typedoc": "^0.25.13",
-        "typescript": "^4.9.5"
+        "@types/jest": "^29.5.14",
+        "@typescript-eslint/eslint-plugin": "^8.13.0",
+        "@yookue/typedoc-plugin-raw-content": "^0.2.2",
+        "del-cli": "^6.0.0",
+        "gh-pages": "^6.2.0",
+        "globals": "^15.12.0",
+        "ts-jest": "^29.2.5",
+        "typedoc": "^0.26.11",
+        "typescript": "^5.6.3"
     },
     "peerDependencies": {
-        "@types/node": ">=16.0.0"
+        "typescript": ">=4.0.0"
     },
     "repository": {
         "type": "git",
