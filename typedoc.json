@@ -15,16 +15,16 @@
     "hideGenerator": true,
     "includeVersion": false,
     "navigationLinks": {
-        "GitHub": "https://github.com/yookue/babel-plugin-remove-comment",
-        "Yookue": "https://yookue.com"
+        "GitHub": "https://github.com/unikueltd/babel-plugin-remove-comment",
+        "Unikue": "https://unikue.cn"
     },
     "plugin": [
-        "@yookue/typedoc-plugin-raw-content"
+        "@unikue/typedoc-plugin-raw-content"
     ],
     "rawHeadEnds": [
-        "<meta name='keywords' content='typedoc, yookue, babel-plugin-remove-comment'/>"
+        "<meta name='keywords' content='typedoc, unikue, babel-plugin-remove-comment'/>"
     ],
     "rawFooterEnds": [
-        "<div style='text-align: center'>Copyright &copy; 2024 Yookue Ltd. All rights reserved</div>"
+        "<div style='text-align: center'>Copyright &copy; 2025 Unikue Ltd. All rights reserved</div>"
     ]
 }

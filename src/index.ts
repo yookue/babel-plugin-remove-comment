@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Yookue Ltd. All rights reserved.
+ * Copyright (c) 2024 Unikue Ltd. All rights reserved.
  *
  * Licensed under the MIT License (the 'License')
  *
@@ -42,7 +42,7 @@ export type RemoveCommentOptions = {
 // noinspection JSUnusedGlobalSymbols
 export default (_babel: unknown, options: RemoveCommentOptions = {scope: 'none'}): PluginObj<RemoveCommentOptions> => {
     return {
-        name: '@yookue/babel-plugin-remove-comment',
+        name: '@unikue/babel-plugin-remove-comment',
         visitor: {
             Program(path) {
                 if (!options.scope || options.scope === 'none') {

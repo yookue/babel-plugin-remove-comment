@@ -1,8 +1,8 @@
-# @yookue/babel-plugin-remove-comment
+# @unikue/babel-plugin-remove-comment
 
-[![NPM version](https://img.shields.io/npm/v/@yookue/babel-plugin-remove-comment.svg?style=flat)](https://npmjs.org/package/@yookue/babel-plugin-remove-comment)
+[![NPM version](https://img.shields.io/npm/v/@unikue/babel-plugin-remove-comment.svg?style=flat)](https://npmjs.org/package/@unikue/babel-plugin-remove-comment)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.txt)
-[![NPM downloads](http://img.shields.io/npm/dm/@yookue/babel-plugin-remove-comment.svg?style=flat)](https://npmjs.org/package/@yookue/babel-plugin-remove-comment)
+[![NPM downloads](http://img.shields.io/npm/dm/@unikue/babel-plugin-remove-comment.svg?style=flat)](https://npmjs.org/package/@unikue/babel-plugin-remove-comment)
 
 🏅 Removes script comments during babel compilation 👍
 
@@ -15,7 +15,7 @@
 You can install this package in your typescript project as follows:
 
 ```bash
-$ npm install @yookue/babel-plugin-remove-comment --save-dev
+$ npm install @unikue/babel-plugin-remove-comment --save-dev
 ```
 
 Enjoy your coding journey with `babel-plugin-remove-comment` ✌️
@@ -25,7 +25,7 @@ Enjoy your coding journey with `babel-plugin-remove-comment` ✌️
 - Using in javascript/typescript
 
 ```js
-const plugin = require('@yookue/babel-plugin-remove-comment');
+const plugin = require('@unikue/babel-plugin-remove-comment');
 babel.transform(source_code, {
     plugins: [
         [plugin, {scope: 'all'}]
@@ -38,7 +38,7 @@ babel.transform(source_code, {
 ```json
 {
     "plugin": [
-        ["@yookue/babel-plugin-remove-comment", {
+        ["@unikue/babel-plugin-remove-comment", {
             "scope": "all"
         }]
     ]
@@ -50,7 +50,7 @@ babel.transform(source_code, {
 ```typescript
 {
     extraBabelPlugins: [
-        ['@yookue/babel-plugin-remove-comment', {
+        ['@unikue/babel-plugin-remove-comment', {
             scope: 'all'
         }]
     ]
@@ -67,7 +67,7 @@ Here is the available option:
 
 ## Document
 
-- GitHub pages: [https://yookue.github.io/babel-plugin-remove-comment](https://yookue.github.io/babel-plugin-remove-comment)
+- GitHub pages: [https://unikueltd.github.io/babel-plugin-remove-comment](https://unikueltd.github.io/babel-plugin-remove-comment)
 
 ## References
 
@@ -82,4 +82,4 @@ This project is under the [MIT License](https://mit-license.org/).
 
 ## Website
 
-- Yookue: [https://yookue.com](https://yookue.com)
+- Unikue: [https://unikue.cn](https://unikue.cn)

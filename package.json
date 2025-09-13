@@ -1,10 +1,10 @@
 {
-    "name": "@yookue/babel-plugin-remove-comment",
-    "version": "0.1.6",
+    "name": "@unikue/babel-plugin-remove-comment",
+    "version": "1.0.0",
     "title": "BabelPluginRemoveComment",
     "description": "Removes script comments during babel compilation",
-    "homepage": "https://yookue.github.io/babel-plugin-remove-comment",
-    "organization": "Yookue Ltd",
+    "homepage": "https://unikueltd.github.io/babel-plugin-remove-comment",
+    "organization": "Unikue Ltd",
     "private": false,
     "license": "MIT",
     "keywords": [
@@ -27,48 +27,48 @@
         "test:coverage": "del-cli ./coverage && jest --coverage --coverageDirectory ./coverage"
     },
     "devDependencies": {
-        "@babel/preset-env": "^7.26.9",
+        "@babel/preset-env": "^7.28.3",
         "@types/babel__core": "^7.20.5",
-        "@types/jest": "^29.5.14",
-        "@typescript-eslint/eslint-plugin": "^7.18.0",
-        "@yookue/typedoc-plugin-raw-content": "~0.1.8",
+        "@types/jest": "^30.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.43.0",
+        "@unikue/typedoc-plugin-raw-content": "~1.0.0",
         "del-cli": "^6.0.0",
         "gh-pages": "^6.3.0",
-        "ts-jest": "^29.2.6",
-        "typedoc": "~0.25.13",
-        "typescript": "^4.9.5"
+        "ts-jest": "^29.4.1",
+        "typedoc": "~0.28.12",
+        "typescript": "^5.9.2"
     },
     "peerDependencies": {
         "typescript": ">=4"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yookue/babel-plugin-remove-comment.git"
+        "url": "git+https://github.com/unikueltd/babel-plugin-remove-comment.git"
     },
     "bugs": {
-        "url": "https://github.com/yookue/babel-plugin-remove-comment/issues"
+        "url": "https://github.com/unikueltd/babel-plugin-remove-comment/issues"
     },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/"
     },
     "collective": {
-        "url": "https://opencollective.com/yookue-awesome"
+        "url": "https://opencollective.com/unikue-awesome"
     },
     "funding": [
         {
             "type": "opencollective",
-            "url": "https://opencollective.com/yookue-awesome"
+            "url": "https://opencollective.com/unikue-awesome"
         },
         {
             "type": "individual",
-            "url": "https://yookue.com/donation"
+            "url": "https://unikue.cn/donation"
         }
     ],
     "author": {
-        "name": "Yookue Ltd",
-        "email": "yookue@outlook.com",
-        "url": "https://yookue.com"
+        "name": "Unikue Ltd",
+        "email": "unikue@yeah.net",
+        "url": "https://unikue.cn"
     },
     "contributors": [
         {
