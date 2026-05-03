@@ -15,8 +15,9 @@
  */
 
 
-const babelCore = require('@babel/core');
-const babelPlugin = require('../dist/cjs');
+import * as babelCore from '@babel/core';
+// @ts-ignore - dist/cjs may not exist before build
+import * as babelPlugin from '../dist/cjs';
 
 
 const sourceCode = `
@@ -40,8 +41,8 @@ describe('BabelPluginRemoveComment', () => {
                 }]
             ]
         });
-        expect(ast.code.indexOf('* Block comment')).toBe(-1);
-        expect(ast.code.indexOf('// Line comment')).toBe(-1);
+        expect(ast!.code!.indexOf('* Block comment')).toBe(-1);
+        expect(ast!.code!.indexOf('// Line comment')).toBe(-1);
     });
 
     test('Testing block comment', () => {
@@ -53,8 +54,8 @@ describe('BabelPluginRemoveComment', () => {
                 }]
             ]
         });
-        expect(ast.code.indexOf('* Block comment')).toBe(-1);
-        expect(ast.code.indexOf('// Line comment')).toBeGreaterThan(-1);
+        expect(ast!.code!.indexOf('* Block comment')).toBe(-1);
+        expect(ast!.code!.indexOf('// Line comment')).toBeGreaterThan(-1);
     });
 
     test('Testing line comment', () => {
@@ -66,7 +67,7 @@ describe('BabelPluginRemoveComment', () => {
                 }]
             ]
         });
-        expect(ast.code.indexOf('* Block comment')).toBeGreaterThan(-1);
-        expect(ast.code.indexOf('// Line comment')).toBe(-1);
+        expect(ast!.code!.indexOf('* Block comment')).toBeGreaterThan(-1);
+        expect(ast!.code!.indexOf('// Line comment')).toBe(-1);
     });
 });
