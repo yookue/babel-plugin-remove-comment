@@ -1,6 +1,6 @@
 {
     "name": "@unikue/babel-plugin-remove-comment",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "title": "BabelPluginRemoveComment",
     "description": "Removes script comments during babel compilation",
     "homepage": "https://unikueltd.github.io/babel-plugin-remove-comment",

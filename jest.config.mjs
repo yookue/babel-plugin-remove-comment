@@ -4,10 +4,7 @@ export default {
     testMatch: ['**/test/**/*.test.ts'],
     transform: {
         '^.+\\.tsx?$': ['ts-jest', {
-            tsconfig: {
-                esModuleInterop: true,
-                allowSyntheticDefaultImports: true,
-            }
+            tsconfig: './tsconfig.test.json'
         }]
-    },
+    }
 };
