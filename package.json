@@ -43,7 +43,7 @@
         "typescript-eslint": "^8.59.1"
     },
     "peerDependencies": {
-        "typescript": ">=4"
+        "typescript": ">=4.0.0"
     },
     "repository": {
         "type": "git",
@@ -54,7 +54,7 @@
     },
     "publishConfig": {
         "access": "public",
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://registry.npmjs.org"
     },
     "collective": {
         "url": "https://opencollective.com/unikue-awesome"
